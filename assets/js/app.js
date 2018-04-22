@@ -46,3 +46,11 @@ msg.addEventListener('keypress', function (event) {
     msg.value = '';         // reset the message input field for next message.
   }
 });
+
+import Elm from './main.js';
+
+const elmDiv = document.querySelector('#elm_target');
+
+if (elmDiv) {
+    Elm.Main.embed(elmDiv);
+}

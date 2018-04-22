@@ -1,4 +1,5 @@
 <!-- The list of messages will appear here: -->
+<div id="elm_target"></div>
 <ul id='msg-list' class='row' style='list-style: none; min-height:200px; padding: 10px;'></ul>
 
 <div class="row">
